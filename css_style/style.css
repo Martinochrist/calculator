@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    background-color: rgb(24, 24, 24);  
+     
+}
+.mm1{
+    margin: 50px 500px;
+}
+
+
+
+.upcontiner{
+    width: 220px;
+    height: 100px;
+    background-color: rgb(241, 245, 241);
+    color: black;
+    
+}
+
+.continer{
+    width: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:2px;
+    justify-content:first baseline;
+    background-color: rgb(8, 8, 8);
+    padding: 10px;
+    color: rgb(216, 203, 203);
+    
+}
+
+.continer > div{
+    
+    background-color:rgb(39, 37, 37);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+#first{
+    grid-column: 1/ span 2;
+   
+}
+#first{
+    background-color: rgb(179, 64, 64);
+}
+
+
+#last{
+    background-color: orange;
+}
+
